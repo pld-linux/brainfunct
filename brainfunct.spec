@@ -5,8 +5,10 @@ Version:	1
 Release:	1
 License:	?
 Group:		Development/Languages
-Source0:	http://www.catseye.mb.ca/esoteric/bf/%{name}.tar.gz
-URL:		http://www.catseye.mb.ca/esoteric/bf/
+Source0:	http://download.sourcemage.org/mirror/stable/%{name}.tar.gz
+# Source0-md5:	1953aa43bb9f3f06e99bca7a15b90e62
+#Source0:	http://www.catseye.mb.ca/esoteric/bf/%{name}.tar.gz
+#URL:		http://www.catseye.mb.ca/esoteric/bf/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
