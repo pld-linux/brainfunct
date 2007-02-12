@@ -1,5 +1,5 @@
 Summary:	Brainf*** language interpreter and compiler
-Summary(pl):	Kompilator i interpreter jêzyka Brainf***
+Summary(pl.UTF-8):   Kompilator i interpreter jÄ™zyka Brainf***
 Name:		brainfunct
 Version:	1
 Release:	1
@@ -17,10 +17,10 @@ language. Brainf*** is a minimal language developed by Urban Mueller.
 While it only has a total of eight instructions, it can solve any
 solvable mathematical problem.
 
-%description -l pl
-Ten pakiet zawiera interpreter i kompilator jêzyka Brainf***.
-Brainf*** to minimalny jêzyk stworzony przez Urbana Muellera. Pomimo
-¿e ma tylko osiem instrukcji, mo¿e rozwi±zaæ ka¿dy rozwi±zywalny
+%description -l pl.UTF-8
+Ten pakiet zawiera interpreter i kompilator jÄ™zyka Brainf***.
+Brainf*** to minimalny jÄ™zyk stworzony przez Urbana Muellera. Pomimo
+Å¼e ma tylko osiem instrukcji, moÅ¼e rozwiÄ…zaÄ‡ kaÅ¼dy rozwiÄ…zywalny
 problem matematyczny.
 
 %prep
