@@ -1,5 +1,5 @@
 Summary:	Brainf*** language interpreter and compiler
-Summary(pl.UTF-8):   Kompilator i interpreter języka Brainf***
+Summary(pl.UTF-8):	Kompilator i interpreter języka Brainf***
 Name:		brainfunct
 Version:	1
 Release:	1
