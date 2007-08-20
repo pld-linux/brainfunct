@@ -7,6 +7,7 @@ License:	?
 Group:		Development/Languages
 Source0:	http://download.sourcemage.org/mirror/stable/%{name}.tar.gz
 # Source0-md5:	1953aa43bb9f3f06e99bca7a15b90e62
+Patch0:		%{name}-gcc4.patch
 #Source0:	http://www.catseye.mb.ca/esoteric/bf/%{name}.tar.gz
 #URL:		http://www.catseye.mb.ca/esoteric/bf/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,6 +26,7 @@ problem matematyczny.
 
 %prep
 %setup -q -n bf
+%patch0 -p1
 
 %build
 %{__make} \
